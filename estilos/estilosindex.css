@@ -1,0 +1,234 @@
+body{
+	background-color: #dfdfe0;
+}
+
+.logoinicial{
+	width: 200px;
+	display: block;
+	margin: auto;
+	padding-top: 40px;
+}
+
+
+.cajaLogoFinal{
+	width: 55%;
+	margin: auto;
+}
+
+.logofinal{
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+}
+
+.textoBienvenido{
+	font-family: exo;
+	text-align: center;
+}
+
+.textoSelecciona{
+	font-family: exo;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.textoPais{
+	font-family: exo;
+	text-align: center;
+	margin-top: -10px;
+	font-size: 13px;
+}
+
+.banderaPadre{
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+
+.bandera1{
+  display: inline-block;
+  width: 160px;
+  margin: auto;
+  text-align: justify;
+}
+
+.bandera2{
+  display: inline-block;
+  width: 160px;
+  margin: auto;
+  text-align: justify;
+}
+
+img.icon{
+
+	-webkit-border-radius: 50%; /*Crea esfera*/
+	-webkit-box-shadow: 0px 0px 0px 17px rgba(255,255,255,0); /*Sombra a la imagen con color blanco*/
+	-webkit-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-mz-border-radius: 50%; /*Crea esfera*/
+	-mz-box-shadow: 0px 0px 0px 17px rgba(255,255,255,0); /*Sombra a la imagen con color blanco*/
+	-mz-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-ms-border-radius: 50%; /*Crea esfera*/
+	-ms-box-shadow: 0px 0px 0px 17px rgba(255,255,255,0); /*Sombra a la imagen con color blanco*/
+	-ms-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-o-border-radius: 50%; /*Crea esfera*/
+	-o-box-shadow: 0px 0px 0px 17px rgba(255,255,255,0); /*Sombra a la imagen con color blanco*/
+	-o-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+}
+
+div.banderas:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6); /*Elimina la sombra*/
+	-moz-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6); /*Elimina la sombra*/
+	-ms-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6); /*Elimina la sombra*/
+	-o-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6); /*Elimina la sombra*/
+}
+
+
+
+@media screen and (max-width: 1080px) {
+	
+	.cajaLogoFinal{
+		width: 35%;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 850px) {
+	
+	.cajaLogoFinal{
+		width: 40%;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 660px) {
+	
+	.cajaLogoFinal{
+		width: 45%;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 590px) {
+	
+	.cajaLogoFinal{
+		width: 53%;
+		margin: auto;
+	}
+
+}
+
+
+@media screen and (max-width: 509px) {
+	
+	.cajaLogoFinal{
+		width: 60%;
+		margin: auto;
+	}
+
+}
+
+
+
+@media screen and (max-width: 440px) {
+	
+	.cajaLogoFinal{
+		width: 75%;
+		margin: auto;
+	}
+
+}
+
+
+
+@media screen and (max-width: 341px) {
+	
+	.bandera1{
+	  width: 130px;
+	}
+
+	.bandera2{
+	  width: 130px;
+	}
+
+}
+
+
+@media screen and (max-width: 285px) {
+	
+	.bandera1{
+	  width: 120px;
+	}
+
+	.bandera2{
+	  width: 120px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 261px) {
+	
+	img.icon{
+	  width: 80px;
+	  height: 80px;
+	}
+
+	.bandera1{
+	  width: 100px;
+	}
+
+	.bandera2{
+	  width: 100px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 261px) {
+	
+	img.icon{
+	  width: 70px;
+	  height: 70px;
+	}
+
+	.bandera1{
+	  width: 90px;
+	}
+
+	.bandera2{
+	  width: 90px;
+	}
+
+
+	.logoinicial{
+	width: 150px;
+
+	}
+
+
+	.cajaLogoFinal{
+		width: 85%;
+		margin: auto;
+	}
+
+}
+
+
+
+

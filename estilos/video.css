@@ -1,0 +1,53 @@
+
+
+body {
+    margin: 0;
+  overflow-x: hidden; /*DESAPARECE LA BARRA SI EXEDEMOS EL TAMAÑO DE LA PANTALLA*/
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff; 
+}
+
+.content {
+  max-width: 32rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-video video {
+  min-width: 100%;
+  min-height: 100%
+}
+
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000; /*COLOR DE FONDO*/
+  z-index: 1;
+  opacity: .9;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+
+

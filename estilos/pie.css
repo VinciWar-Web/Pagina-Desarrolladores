@@ -1,0 +1,28 @@
+.footer{
+	align-self: flex-end; /*Declarar codigo para enviar footer abajo*/
+	background-color:#24428f; /*Color de la caja con transparencia*/
+	line-height:1.5; /*Ancho de la caja*/
+	text-align: center; /*Centrar texto*/
+	width: 100%; /*Adactable a cualquier pantalla*/
+	color:#a7a6a6;
+}
+
+.derechos{
+  padding: 20px;
+}
+
+.derechosTitulo{
+    font-family: WellBred;
+    font-size: 25px;
+    font-weight: 50;
+}
+
+.empresa{
+    font-family: route;
+    font-size: 30px;
+    font-weight: 50;
+}
+
+.imagenpiedepagina{
+	width: 300px;
+}

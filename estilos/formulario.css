@@ -1,0 +1,419 @@
+
+/* Estilos del formulario */
+
+
+form.contacto {
+    margin: 25px auto 0;
+    width: 70%;
+}
+form.contacto fieldset {
+    /*background: rgba(36,66,143,0.8); /*Color al formulario rojo, verde, azul y transparencia*/ 
+    background: none;
+    padding: 50px 30px 30px 30px; /*Margen dentro de la caja 10px vertical y 20px horizontal*/
+    
+    border-radius: 7px; /*Bordea las esquinas*/ 
+    border: none;
+}
+form.contacto fieldset > div {
+    clear: both;
+    margin-bottom: 20px; /*Margen entre los campos de texto*/
+    overflow: hidden;
+}
+
+form.contacto input[type="text"], form.contacto textarea { /*ESTILOS DE LOS CAMPOS DE TEXTO*/
+   /* background: #F5F5F5;*/
+    background: rgba(183, 182, 182, 0.3); /*COLOR DE AREA DE TEXTO*/
+    border: 1px solid #151515;
+    color: #dbd9d9; /*COLOR DEL TEXTO AL ESCRIBIR EN EL CAMPOS*/
+    display: block;
+    float: left;
+    padding: 12px;
+    /* box-sizing: border-box; /*Aplica el ancho hacia adentro*/
+    /*border: none; /*Elimina los bordes*/
+    font-size: 16px; /*Tamaño de fuente*/
+    font-family: exo;
+    resize: none;
+    width: 100%; /*ancho de los campos de texto*/
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+}
+form.contacto input[type="text"]:focus, form.contacto textarea:focus { /*ESTILOS DE LOS CAMPOS DE TEXTO AL COLOCAR EL CURSOR*/
+    background: #161616; 
+    border: none;
+    
+}
+
+
+::-webkit-input-placeholder { /*COLOR PLACEHOLDER*/
+    color: #dbd9d9; 
+} 
+
+:-moz-placeholder {  /*COLOR PLACEHOLDER*/
+    color: #dbd9d9; 
+} 
+
+::-moz-placeholder { /*COLOR PLACEHOLDER*/
+    color: #dbd9d9; 
+} 
+
+:-ms-input-placeholder { /*COLOR PLACEHOLDER*/
+    color: #dbd9d9; 
+}
+
+.campoObligatorio{
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  color: #fff;
+  font-family: exo;
+
+}
+
+form.contacto .ultimo{
+    margin-bottom: 0;
+    position: relative
+}
+
+form.contacto button {
+    background: #24428f;
+    cursor: pointer;
+    border: none;
+    color: #ebebeb;
+    float: right;
+    font-family: exo;
+    height: 45px;
+    padding: 0 10px;
+    position: relative;
+    text-transform: uppercase;
+    border: none; /*Elimina los bordes*/
+    box-sizing: border-box; /*Aplica el ancho hacia adentro*/
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+}
+/*form.contacto button:hover{
+    background: #6A6A6A;
+}*/
+ 
+/* AJAX Gif y mensajes de exito o fracaso */
+.hide{
+    display: none;
+}
+.ajaxgif{
+    position: absolute;
+    right: 150px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+}
+.msg{
+    color: white;
+    font-family: exo;
+    height: 45px;
+    text-align: center;
+    line-height: 44px;
+    border: none;
+    padding: 0 10px;
+    position: absolute;
+    right: -155px;
+    text-transform: uppercase;
+    min-width: 121px;
+    box-sizing: border-box; /*Aplica el ancho hacia adentro*/
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+}
+.msg_ok{
+    background: #589D05;
+}
+.msg_error{
+    background: #8f2222;
+}
+
+
+
+
+@media screen and (max-width: 650px){
+    
+    .mundo{
+  font-size: 28px;
+
+  }
+}
+
+
+@media screen and (max-width: 500px){
+    
+    form.contacto {
+    width: 100%;
+
+}
+    
+    .tituloResponsive{
+
+  font-size: 25px;  
+ }
+
+    .tituloResponsive1{
+    
+    font-size: 45px;
+  }
+    
+    .mundo{
+  font-size: 28px;
+
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 370px){
+    
+    
+    .tituloResponsive{
+
+  font-size: 20px;  
+ }
+
+.tituloResponsive1{
+    
+    font-size: 35px;
+  }
+}
+
+/*Hacer el formulario Resposive, es decir que se adacte a la pantalla*/
+/*@media screen and (max-width: 620px) {
+	form{
+		width: 90%;
+	}
+}*/
+
+@media screen and (max-width: 670px) {
+	
+.textomodal{
+	color: #c6c5c2;
+	width: 90%;
+	
+	text-align: center;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	margin: 0;
+	font-size: 10px;
+	}
+
+.redesmenupadre, .botoninicio{
+	display: none;
+	}
+
+header nav ul li a {
+	display: block;
+	padding:15px; /*ANCHO DEL CONTENEDOR MENU*/
+	color:#a7a6a6; /*COLOR DE LAS LETRAS DEL MENU*/
+	text-decoration: none;
+	font-size: 13px; /*TAMAÑO DE LA LETRA DEL MENU*/
+	}
+
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 60px; /*MARGEN IZQUIERDO DE LOS CONTENEDORES DEL MENU*/
+	position: relative; /*CONTENEDOR PADRE DE EL LOGO DENTRO DEL MENU*/
+	}
+.logo-menu{
+	position: absolute;
+	left: 0px;
+  	margin: 0px 0px 0px 5px;
+	}
+.bloque h2{
+	margin-bottom: 40px;
+	text-align: center;
+ 	padding-top: 113px;
+  	font-size: 30px;
+
+	}
+.bloque h1{
+	 text-align: center;
+  	margin: 0;
+  	font-size: 30px;
+  	color: #000;
+  	line-height: 90px;
+  	clear:both; /*FRENA EL FLOAT DE LAS IMAGENES EN GALERIA*/
+	}
+
+.imagenpiedepagina{
+	width: 230px;
+	}
+
+.containerpersonal{
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+	}
+
+.bloque h5{
+  margin-bottom: 40px;
+  font-size: 14px;
+  margin-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+	}
+
+.flex-control-nav li a{
+	display: block;
+	background: #777777;
+	width: 10px; /*ANCHO DEL CIRCULO PEQUEÑO DE ABAJO DEL SLIDER*/
+	height: 3px; /*ALTO DEL CIRCULO PEQUEÑO DE ABAJO DEL SLIDER*/
+	text-indent: -9999px;
+	}
+
+	.flex-control-nav{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: -8%;
+	z-index: 999;
+	}
+}
+
+
+@media screen and (max-width: 450px) {
+	.nosotros1{
+  	display: inline-block;
+  	width: 90%;
+  
+	}
+	.textonosotros{
+	  font-size: 16px;
+	  color: #555;
+	}
+
+	.nosotros2{
+	  display: inline-block;
+	  position: relative;
+	  bottom: 0px;
+	  width: 260px;
+	  margin-left: 0px;
+	  text-align: center;
+	  font-family: inherit;
+	}
+}
+
+@media screen and (max-width: 864px) {
+	
+	.textonosotros{
+	  font-size: 18px;
+	  color: #555;
+	}
+
+	.nosotros2{
+	  display: inline-block;
+	  position: relative;
+	  bottom: 0px;
+	  width: 90%;
+	  margin-left: 0px;
+	  text-align: center;
+	  font-family: inherit;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	
+	img.iconredes{
+    
+    width: 50px;
+    height: auto;
+
+}
+    
+    .redesparallax{
+        
+      margin: 20px 8px 20px 8px;
+ 
+}
+}
+
+
+@media screen and (max-width: 513px) {
+	
+	.imgLogoTecnologia{
+    
+    width: 300px;
+    height: auto;
+
+}
+    
+
+}
+
+
+
+@media screen and (max-width: 331px) {
+	
+	.imgLogoTecnologia{
+    
+    width: 150px;
+    height: auto;
+
+}
+    
+
+}
+
+
+
+
+@media screen and (max-width: 1010px) {
+	
+    .efecto h3{
+
+    font-size: 15px;
+
+}
+    
+
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+	
+    .contenedor{
+	width: 90%;
+}
+    
+    .contenedor-hijo{
+	width: 28%;
+
+}
+    
+
+}
+
+@media screen and (max-width: 463px) {
+	
+    .contenedor{
+	width: 90%;
+}
+    
+    .contenedor-hijo{
+	width: 40%;
+
+}
+    
+
+}
+
+
+
+
+
+
+
+/*FINALIZA ESTILO DEL FORMULARIO*/ 
+

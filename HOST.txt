@@ -1,0 +1,56 @@
+Información del Servidor
+IP del Servidor: 173.212.199.141
+
+Si está utilizando un dominio existente con su nueva cuenta de hosting, usted tendrá que actualizar los DNS de su dominio y para apuntar a los DNS que figuran a continuación.
+
+Nameserver 1: dns1.extassis.website 
+Nameserver 2: dns2.extassis.website
+
+===========================================================
+Detalles del Plan
+
+Paquete de Alojamiente: Starter
+Dominio: desarrolladores.com.ve
+First Payment Amount: 6.000,00 Bs
+Recurring Amount: 6.000,00 Bs
+Billing Cycle: Trimestral
+Next Due Date: 08/06/2017
+
+===========================================================
+Web Hosting Detalles de cuenta
+
+Panel de control: 
+http://173.212.199.141:2082/
+Usuario: desarro1
+Clave: 16otE1D1ew
+
+Una vez se haya propagado su dominio:
+http://desarrolladores.com.ve:2082
+
+===========================================================
+Cargar web
+
+Temporalmente puede usar una de las direcciones que se indican a continuación para administrar su sitio web:
+
+FTP:
+Servidor: 173.212.199.141
+Usuario: desarro1
+Clave: 16otE1D1ew
+
+Pagina web Temporal: http://173.212.199.141/~desarro1/
+
+Una vez que su dominio sea propagado puede utilizar el formulario:
+
+FTP Hostname: desarrolladores.com.ve
+Webpage URL: http://desarrolladores.com.ve
+===========================================================
+Email Configuracion
+
+Para cuentas de correo electrónico que usted configure, debe utilizar los siguientes datos de conexión en su programa de correo electrónico:
+
+Direccion POP3 Host: mail.desarrolladores.com.ve
+Direccion SMTP Host: mail.desarrolladores.com.ve
+Username: La dirección de correo electrónico
+Password: Como se especifica en su panel de control
+
+===========================================================

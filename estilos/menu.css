@@ -1,0 +1,141 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-background-size:border-box;
+	font-family: arial; /*TIPO DE LETRA*/
+
+}
+.contenedor {
+	width: 100%;
+	max-width:100%;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+
+header{
+	background-color: #ebebeb;
+}
+ 
+header nav {
+	background:#24428f; /*COLOR DE BARRA DEL MENU*/
+	margin-bottom:0px; /*MARGEN ABAJO DEL CONTENEDOR DEL MENU*/
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+	padding-left: 80px; /*MARGEN IZQUIERDO DE LOS CONTENEDORES DEL MENU*/
+	position: relative; /*CONTENEDOR PADRE DE EL LOGO DENTRO DEL MENU*/
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px; /*ANCHO DEL CONTENEDOR MENU*/
+	color:#a7a6a6; /*COLOR DE LAS LETRAS DEL MENU*/
+	text-decoration: none;
+	font-size: 15px; /*TAMAÑO DE LA LETRA DEL MENU*/
+}
+ 
+header nav ul li a:hover {
+	background:#ada528; /*COLOR DE BARRA DEL MENU AL PASAR EL MOUSE*/
+	color: #292929;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	/*x-width:1000px;*/
+	box-shadow:0px 4px 3px rgba(0,0,0,.5); /*Efecto de Sombra*/
+}
+
+.linea{
+	background-color: #ada528;
+	width: 100%;
+	height: 3px;
+}
+
+.logopadre{
+	position: relative;
+	margin-top: 5px;
+	width: 2%;
+	height: auto;
+	
+}
+
+.imglogo{
+	position: absolute;
+	width: 350px;
+	top: 17px;
+
+}
+
+.logo-menu{
+	position: absolute;
+	left: 0px;
+  	margin: 6px 0px 0px 20px;
+}
+
+.redesmenupadre{
+  text-align: right;
+  padding-bottom: 0px;
+  position: relative;
+
+}
+
+img.icon{
+
+	-webkit-border-radius: 50%; /*Crea esfera*/
+	-webkit-box-shadow: 0px 0px 0px 17px rgba(3,3,3,0); /*Sombra a la imagen con color blanco*/
+	-webkit-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-mz-border-radius: 50%; /*Crea esfera*/
+	-mz-box-shadow: 0px 0px 0px 17px rgba(3,3,3,0); /*Sombra a la imagen con color blanco*/
+	-mz-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-ms-border-radius: 50%; /*Crea esfera*/
+	-ms-box-shadow: 0px 0px 0px 17px rgba(3,3,3,0); /*Sombra a la imagen con color blanco*/
+	-ms-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+	-o-border-radius: 50%; /*Crea esfera*/
+	-o-box-shadow: 0px 0px 0px 17px rgba(3,3,3,0); /*Sombra a la imagen con color blanco*/
+	-o-transition:box-shadow .4s; /*Hacer pequeña la sombr*/
+
+}
+
+div.redesmenu:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(3,3,3,.6); /*Elimina la sombra*/
+	-moz-box-shadow:0px 0px 0px 0px rgba(3,3,3,.6); /*Elimina la sombra*/
+	-ms-box-shadow:0px 0px 0px 0px rgba(3,3,3,.6); /*Elimina la sombra*/
+	-o-box-shadow:0px 0px 0px 0px rgba(3,3,3,.6); /*Elimina la sombra*/
+}
+
+.redesmenu{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  text-align:center; 
+  margin: 20px 18px 20px 10px;
+  border: 0px solid #000;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+ 
+}
+

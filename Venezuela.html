@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+
+
+
+		<!------------------------------------------ ETIQUETAS METAS -------------------------------------------->
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="author" content="Ing. Vinci Guerra" />
+		<meta name="description" content="Somos un grupo de profesionales capacitados y experimentados en el desarrollo de programación y diseño de sitios web más actuales. Desarrollamos desde un sitio web de solo publicación, hasta un sistema bajo entorno web (carrito de compra, Buscadores, Filtros). Administramos tu sitio web, redes sociales (community manager), llevamos el audio y video hasta tu página web para los amantes de las radios en online (streaming). Tú no tienes que mover un dedo, nosotros gestionamos el futuro de tu negocio." />
+		<meta name="keywords" content="Diseño web, Desarrollo web, Administracion de redes sociales, Administracion de paginas web, Administracion de sitios web, Hacemos pagina web, Sistemas bajo entorno web, Expertos en paginas web, vendemos pagina web, Venta de pagina web" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+		<title>Desarrolladores de Venezuela</title>
+
+		<!--ESTILOS INICIA-->
+
+
+		<!------------------------------------------ ENLACES ESTILOS -------------------------------------------->
+
+
+		<link rel="stylesheet" href="estilos/menu.css"> <!--MENU-->
+		<link rel="stylesheet" href="flexslider.css" type="text/css"> <!--SLIDE SHOW-->
+		<link rel="stylesheet" href="estilos/principal.css"> <!--ESTILO DEL PARALLAX -->
+		<link rel="stylesheet" href="estilos/pie.css"> <!--ESTILO DEL PIE DE PAGINA -->
+		<link rel="stylesheet" href="estilos/formulario.css"> <!--ESTILO DEL PIE DE PAGINA -->
+		<link rel="stylesheet" href="estilos/estilosmodal.css"> <!--ESTILO VENTANA MODAL -->
+		<link rel="stylesheet" href="estilos/animacionscroll.css"> <!--ESTILO SCROLL -->
+		<link rel="stylesheet" href="estilos/botonirarriba.css"> <!--ESTILO BOTON IR ARRIBA -->
+		<link rel="stylesheet" href="estilos/fonts.css"> <!--ESTILO BOTON IR ARRIBA -->
+		<link rel="stylesheet" href="fuentes.css"> <!--ESTILO FUENTES -->
+		<link rel="stylesheet" href="templates/pace-theme-flat-top.tmpl.css"/> <!--BARRA DE PROGRESO AUTOMATICA -->
+		<link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico"> <!--FAVICON -->
+
+		<!--ESTILOS FINALIZA-->
+		
+		<!--SCRIPT INICIA-->
+
+
+		<!------------------------------------------ ENLACES SCRIPT -------------------------------------------->
+
+
+		<script src="js/jquery.js"></script> <!--LIBRERIA JQUERY-->
+		<script src="pace.min.js" type="text/javascript"></script> <!--SCRIPT BARRA DE PROGRESO AUTOMATICA-->
+		<script src="js/main.js"></script> <!--MENU-->
+		<script src="js/jquery.flexslider.js"></script> <!--SLIDE SHOW-->
+		<script src="js/eskju.jquery.scrollflow.min.js"></script> <!--ESTILO SCROLL -->
+		<script src="js/arriba.js"></script> <!--ESTILO BOTON IR ARRIBA -->
+		
+		
+		<!--SLIDE SHOW INICIA-->
+
+
+		<!------------------------------------------ SCRIPT SLIDER -------------------------------------------->
+
+		<script type="text/javascript" charset="utf-8"> 
+			  $(window).load(function() {
+			    $('.flexslider').flexslider({
+			    	touch: true,
+			    	pauseOnAction: false,
+			    	pauseOnHover: false,
+			    });
+			  });
+		</script>
+
+		<!--SLIDE SHOW FINALIZA-->
+
+
+		<!--SCRIPT PRELOADER INICIA-->
+		<!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+
+		<!-- PRELOADER -->
+
+
+		<!------------------------------------------ SCRIPT PRELOADER -------------------------------------------->
+
+		<script type="text/javascript">
+			// makes sure the whole site is loader
+			jQuery(window).load(function() {
+				// will first fade out the loading animation
+				jQuery("#status").fadeOut();
+				// will fade out the whole DIV that covers the website.
+				jQuery("#preloader").delay(1000).fadeOut("slow");
+			})
+		</script>
+
+		<!--SCRIPT FINALIZA-->
+
+		<style type="text/css">
+			#preloader{
+				position: fixed;
+				top:0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: #fff;
+				z-index: 9999;
+				height: 100%;
+				width: 100%;
+				z-index: 999999999999;
+			}
+
+			#status{
+
+				position:absolute;
+				display:block;background:url(Preloader_8.gif) no-repeat center center;
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+                background-color: #86a1ec;
+				
+			}
+
+		</style>
+
+		<!--SCRIPT PRELOADER FINALIZA-->
+
+	</head>
+
+
+	<body>
+
+		
+
+			<!--PRELOADER INICIA-->
+
+			<!------------------------------------------ PRELOADER -------------------------------------------->
+
+		<div id="preloader">
+			<div id="status"></div>
+		</div>
+
+		<!--PRELOADER FINALIZA-->
+
+		<span class="ir-arriba icon-arrow-up"></span> <!--BOTON IR ARRIBA -->
+
+
+
+			<!------------------------------------------ VENTANA MODAL -------------------------------------------->
+
+			<input type="checkbox" id="cerrar">
+			<label for="cerrar" id="btn-cerrar">X</label>
+
+			<div class="modal">
+				<div class="contenido">
+					<img class="imagenmodal" src="imagenes/Tienes tu tienda.jpg" alt="">
+				</div>
+			</div>
+
+			<!--VENTANA MODAL FINALIZA-->
+
+
+
+		<section id="inicio">
+
+			<header>
+
+
+			<!------------------------------------------ LINEA ARRIBA -------------------------------------------->
+
+				<div class="linea"></div> <!--LINEA ARRIBA DE PAGINA -->
+
+					<!--INICIO REDES SOCIALES ARRIBA DEL MENU -->
+
+
+
+			<!------------------------------------------ REDES MENU -------------------------------------------->
+
+
+					<div class="redesmenupadre">
+
+						<div class="logopadre">
+						<a href="https://www.desrrolladores.com.ve" target="new"><img class="imglogo" src="imagenes/LogoDesarrolladoresVenezuela.png" ></a>	
+						</div>
+
+						<div class="redesmenu">
+						<a href="https://www.facebook.com/desarrolladoresdevenezuela" target="new"><img class="icon" src="imagenes/facebook1.png" width="48" height="48"></a>
+						</div>
+
+						<div class="redesmenu">
+						<a href="https://www.instagram.com/desarrolladoresinternacional" target="new"><img class="icon" src="imagenes/instagram1.png" width="48" height="48"></a>
+						</div>
+
+						<div class="redesmenu">
+						<a href="https://twitter.com/desarrollandome" target="new"><img class="icon" src="imagenes/twitter1.png" width="48" height="48"></a>
+						</div>
+
+						<div class="redesmenu">
+						<a href="#mensaje"><img class="icon" src="imagenes/correo1.png" width="48" height="48"></a>
+						</div>
+
+					</div>
+
+					<!--FIN REDES SOCIALES ARRIBA DEL MENU -->
+
+					<!--INICIA MENU -->
+
+
+
+					<!------------------------------------------ MENU -------------------------------------------->
+
+					<nav class="menu">
+
+						<ul>
+
+							<a href="https://www.desrrolladores.com.ve"><img src="imagenes/Logo Solo D Gris PNG.png" alt=""width="44" height="44" class="logo-menu animated fadeInLeft"></a>
+
+							<div class="botoninicio"><li><a href="#inicio">Inicio</a></li></div>
+							<li><a href="#nosotros">Nosotros</a></li>
+							<li><a href="#planes">Planes</a></li>
+							<li><a href="#contactos">Contacto</a></li>
+		                    
+						</ul>
+
+					</nav>
+
+					<!--FIN MENU -->
+
+			</header>
+			<!--MENU FINALIZA -->
+
+			<!--SLIDE SHOW INICIA -->
+
+
+
+			<!------------------------------------------ SLIDER -------------------------------------------->
+
+
+			<div class="flexslider">
+
+				<ul class="slides">
+
+					<li>
+
+						<img src="imagenes/1.jpg" alt="">
+						<section class="flex-caption">	
+						</section>
+
+					</li>
+
+					<li>
+
+						<img src="imagenes/2.jpg" alt="">
+						<section class="flex-caption">
+						</section>
+
+					</li>
+
+					<li>
+
+						<img src="imagenes/3.jpg" alt="">
+						<section class="flex-caption">
+						</section>
+
+					</li>
+
+					<li>
+
+						<img src="imagenes/4.jpg" alt="">
+						<section class="flex-caption">
+						</section>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+		</section>
+
+		<!--SLIDE SHOW FINALIZA -->
+
+
+		<!--SECCION PRINCIPAL INICIA  -->
+
+
+
+		<!------------------------------------------ NOSOTROS -------------------------------------------->
+			
+		<!-- Seccion 1 -->
+
+		<section id="nosotros">
+
+			<div class="bloque">
+
+				<div class="container">
+
+					<h3 class="titulonosotros scrollflow -pop -opacity">Nosotros</h3>
+
+					<div class="rayapadre scrollflow -pop -opacity">
+					<img class="raya" src="imagenes/raya3.png" alt="">
+					</div>
+
+
+					<div class="nosotrospadre">
+					
+						<div class="nosotros1">
+							
+								<div class="imgnosotros"><img src="imagenes/nosotros.png" alt=""></div>
+						</div>
+
+						<div class="nosotros2">
+
+							<p class="textonosotros">Somos un grupo de profesionales capacitados y experimentados en el desarrollo de programación y diseño de sitios web más actuales. Desarrollamos desde un sitio web de solo publicación, hasta un sistema bajo entorno web (carrito de compra, Buscadores, Filtros). Administramos tu sitio web, redes sociales (community manager), llevamos el audio y video hasta tu página web para los amantes de las radios en online (streaming). Tú no tienes que mover un dedo, nosotros gestionamos el futuro de tu negocio.</p>
+
+						</div>
+
+					</div>
+
+					<div class="secPadre scrollflow -slide-top -opacity">
+					
+						<div class="sec1">
+							
+							<div align="center"><img src="imagenes/nosotros1.png" alt=""></div></br>
+
+							<h3 class="tituloSec">Desarrolladores</h3></br>
+
+								<p class="texto1">Con nuestros proyectos llevaras tu negocio al futuro, solo tienes que escribirnos un mensaje a través de nuestro portal, nuestro grupo de trabajo te contactara para cumplir tus exigencias. Desarrolladores.</p>
+									
+							<div  align="center" class="masinformacioncaja">
+								<a href="#nosotros" class="masinformacion">Nosotros</a>
+							</div>
+
+						</div>
+
+						<div class="sec2">
+								
+							<div align="center"><img src="imagenes/precios.png" alt=""></div></br>
+
+							<h3 class="tituloSec">Bajos Precios</h3></br>
+
+								<p class="texto1">Con Desarrolladores podrás adquirir una página web para tu negocio a muy bajo precio, todos nuestros planes están adaptados a ti. Si contratas el desarrollo y la administración de tu sitio con nosotros obtendrás descuentos.</p>
+
+							<div align="center" class="masinformacioncaja">
+								<a href="#planes" class="masinformacion">Planes</a>
+							</div>
+
+						</div>
+							
+						<div class="sec3">
+
+							<div align="center"><img src="imagenes/satisfaccion.png" alt=""></div></br>
+
+							<h3 class="tituloSec">Preguntas</h3></br>
+
+								<p class="texto1">Todas las inquietudes que tengas con respecto a nuestros planes y servicios de diseño, desarrollo, programación y administración de sitios web las podrás consultar a través de nuestro portal de mensaje o redes sociales.</p>
+
+							<div align="center" class="masinformacioncaja">
+								<a href="#mensaje" class="masinformacion">Portal de Mensajes</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+
+            
+            <!------------------------------------------ LINEA ARRIBA -------------------------------------------->
+
+				<div class="linea"></div> <!--LINEA ARRIBA DE PAGINA -->
+
+			<!------------------------------------------ PERSONAL -------------------------------------------->
+
+			
+			<div class="personalPadre">
+
+				<h3 class="containerpersonal">Nuestro Personal Calificado.</h3>
+
+				<div class="personal1 scrollflow -slide-top -opacity">
+					
+					<div align="center"><img class="imgPersonal" src="imagenes/1 VinciGuerra.png" alt=""></div></br>
+
+						<p class="titulopersonal">Ing. Vinci Guerra</p> 
+						<p class="estatus2">GERENTE GENERAL</p> 
+						
+				</div>
+
+
+				<div class="personal2 scrollflow -slide-top -opacity">
+						
+					<div align="center"><img class="imgPersonal" src="imagenes/1 DerliDiaz.png" alt=""></div></br>
+
+						<p class="titulopersonal">Lcda. Derli Diaz </p> 
+						<p class="estatus2">GERENTE ADMINISTRATIVO</p> 
+
+				</div>
+
+					
+				<div class="personal3 scrollflow -slide-top -opacity">
+
+					<div align="center"><img class="imgPersonal" src="imagenes/1 LuiggiContrera.png" alt=""></div></br>
+
+						<p class="titulopersonal">Ing. Luiggi Contrera</p> 
+						<p class="estatus2">PROGRAMADOR</p> 
+				
+				</div>
+
+				
+				<div class="personal4 scrollflow -slide-top -opacity">
+
+					<div align="center"><img class="imgPersonal" src="imagenes/1 LarryHerrera.png" alt=""></div></br>
+
+						<p class="titulopersonal">Ing. Larry Herrera</p>
+						<p class="estatus2">JEFE DE VENTAS</p> 
+				
+				</div>
+
+			</div>
+
+
+
+
+			<!------------------------------------------ IMAGEN WEB AQUI -------------------------------------------->
+
+			<div class="camponegocio">
+					
+				<img  src="imagenes/bannernegocio.jpg" alt="">
+
+			</div>
+
+		</section>
+
+
+
+
+
+		<!------------------------------------------ PLANES -------------------------------------------->
+
+
+		<section id="planes">
+
+			<div class="bloque">
+
+				<div class="container">
+
+
+					<h3 class="tituloplanes scrollflow -pop -opacity">Planes</h3>
+
+					<div class="rayapadre scrollflow -pop -opacity">
+						<img class="raya" src="imagenes/raya3.png" alt="">
+					</div>
+
+					<p class="textoplanes scrollflow -slide-top -opacity">Todos nuestros planes se adaptan a ti, tú eliges el servicio y nosotros lo desarrollamos, si deseas administrar tu página web o redes sociales puedes hacerlo con nosotros, si solo deseas un diseño y elegir lo que quieres administrar también lo puedes hacer, elige tu plan y solicita tú presupuesto a través de nuestro portal de mensajes.</p>
+					
+					<p class="textonota scrollflow -slide-top -opacity">Nota: Todos nuestros precios incluyen solo el diseño y desarrollo de tu página web.  El dominio y hosting no está incluido en el costo de los planes.</p>
+
+
+
+
+                    <div class="planesPadre">
+
+
+                        <div class="plan1 scrollflow -slide-top -opacity">
+
+                            <div align="center"><img class="imgPlan" src="imagenes/CABEZA DE PRECIO NARANJA.png" alt=""></div></br>
+
+                                <p class="textoPlan">
+
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Web Adaptable a móviles.</br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Diseño Moderno acorde al rubro.</br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Hasta 6 Vínculos.</br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Integración con redes Sociales.</br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Galería de fotos o videos.</span></br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Catálogo de productos Art.</span></br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Formulario de Contacto.</br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Dirección Google Maps.</br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Botones de ayuda.</span></br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Botones de información.</span></br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">Slider de Imágenes.</br>
+                    <img class="iconPlan" src="imagenes/tildeNaranja.png">SEO Básico</p> 
+
+                            <div align="center"><img class="imgPlan2" src="imagenes/PIE DE PRECIO NARANJA Bs.png" alt=""></div></br>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="plan2 scrollflow -slide-top -opacity">
+
+                            <div align="center"><img class="imgPlan" src="imagenes/CABEZA DE PRECIO AZUL.png" alt=""></div></br>
+
+                                <p class="textoPlan">
+
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Web Adaptable a móviles.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Diseño Moderno acorde al rubro.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Hasta 15 Vínculos.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Integración con redes Sociales.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Galería de fotos o videos.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Catálogo de productos 50 Art.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Formulario de Contacto.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Dirección Google Maps.</br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Botones de ayuda.</span></br>
+                    <img class="iconPlan" src="imagenes/xGris.png"><span class="textoPlanX">Botones de información.</span></br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">Slider de Imágenes.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzul.png">SEO Básico</p> 
+
+                            <div align="center"><img class="imgPlan2" src="imagenes/PIE DE PRECIO AZUL Bs.png" alt=""></div></br>	 
+
+                        </div>
+
+
+
+
+
+                        <div class="plan3 scrollflow -slide-top -opacity">
+
+                            <div align="center"><img class="imgPlan" src="imagenes/CABEZA DE PRECIO AZUL OSCURO.png" alt=""></div></br>
+
+                                <p class="textoPlan">
+
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Web Adaptable a móviles.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Diseño Moderno acorde al rubro.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Hasta 20 Vínculos.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Integración con redes Sociales.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Galería de fotos o videos.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Catálogo de productos 100 Art.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Formulario de Contacto.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Dirección Google Maps.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Botones de ayuda.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Botones de información.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">Slider de Imágenes.</br>
+                    <img class="iconPlan" src="imagenes/tildeAzulOscuro.png">SEO Básico</p> 
+
+                                <div align="center"><img class="imgPlan2" src="imagenes/PIE DE PRECIO AZUL OSCURO Bs.png" alt=""></div></br>	
+
+                            </div>
+
+                        </div>
+
+
+					</div>
+
+				</div>
+            
+            
+            
+            
+            
+            
+            
+              <!------------------------------------------ LINEA ARRIBA -------------------------------------------->
+
+				<div class="linea"></div> <!--LINEA ARRIBA DE PAGINA -->
+            
+            
+            <!------------------------------------------ TECNOLOGIA DE DESARROLLO -------------------------------------------->
+            
+            
+            
+            
+            
+            
+            
+                <div class="tecnologiaPadre">
+                    
+                    
+                    <h3 class="tituloTecnologia"><strong>Desarrollamos</strong> tu página web con la más alta tecnología.</h3>
+                    
+                    
+                    <div>
+                    
+                        <img class="imgLogoTecnologia" src="imagenes/Desarrolladores.png" alt="">
+                    
+                    </div>
+                    
+                    
+                    
+					
+				    <div class="contenedor">
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecHTML.jpg" alt="">
+                            <div class="efecto izquierda">
+                                <h3>Estructuras</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecCSS.jpg" alt="">
+                            <div class="efecto derecha">
+                                <h3>Estilos</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecJS.jpg" alt="">
+                            <div class="efecto abajo">
+                                <h3>Inteligencia</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecJQUERY.jpg" alt="">
+                            <div class="efecto arriba">
+                                <h3>Biblioteca Inteligente</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecAJAX.jpg" alt="">
+                            <div class="efecto izquierda">
+                                <h3>Interactividad</h3>
+                            </div>
+                        </div>
+
+                        <div class="contenedor-hijo">
+                            <img src="imagenes/tecPHP.jpg" alt="">
+                            <div class="efecto derecha">
+                                <h3>Programación y BD</h3>
+
+                            </div>
+                        </div>
+
+	                </div>
+						
+						
+						
+						
+				</div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+			<!------------------------------------------ IMAGEN STREAMING -------------------------------------------->
+				
+		
+			<div class="campoconexion1">
+				<img  src="imagenes/bannerconexion.jpg" alt=""> <!-- IMAGEN STREAMING -->
+			</div>
+
+			</div>
+			
+			
+			
+			
+			
+			
+			<!------------------------------------------ DISEÑO EN WORDPRESS -------------------------------------------->
+
+            <div class="wordpressPadre">
+               
+                <h3 class="tituloWordpress">También diseñamos sitios web con <strong>Wordpress.</strong></h3>
+                
+                <img class="imgWorpress" src="imagenes/wordPress.png" alt="">
+                
+                <p class="textoWordpress"><strong>WordPress</strong> facilita la administración de páginas web y ha sido el primer paso para transformarse de un software básico de administración de blogs a un completo sistema de administración de contenidos.</p>
+                
+            </div>
+            
+            
+            
+            
+            
+              <!------------------------------------------ LINEA ARRIBA -------------------------------------------->
+
+				<div class="linea"></div> <!--LINEA ARRIBA DE PAGINA -->
+            
+            
+            
+			
+			
+			<!------------------------------------------ IMAGEN MODAL -------------------------------------------->
+			
+            <h3 class="tituloResponsive">Todos nuestros diseños son </br> <samp class="tituloResponsive1"> Adaptado a Cualquier Dispositivo </samp></h3>
+			
+			
+			<div class="responsivePadre">
+							
+							
+				<div class="imgResponsive"><img src="imagenes/responsive1.jpg" alt=""></div>
+						
+
+            </div>
+            
+            
+    
+
+			<!------------------------------------------ IMAGEN MAPA -------------------------------------------->
+				
+
+			<div class="bloque parallax image-2">
+
+				<div class="container">
+				
+
+                    <div class="bloque2">
+
+                        <h3 class="mundo scrollflow -pop -opacity">Diseñamos para cualquier <samp class="mundo1">Parte del Mundo.</samp></h3>
+
+                        <div class="campoconexion">		
+                            <img  src="imagenes/mapa_mundi.png" alt="">
+                        </div>
+
+                     </div>
+
+			    </div>
+			
+			</div>
+
+		</section>
+		
+		
+		
+		
+		
+
+			<!------------------------------------------ CONTACTOS -------------------------------------------->
+
+
+		<!-- Seccion 3 -->
+
+		<section id="contactos">
+
+			<div class="bloque">
+
+				<div class="container">
+                    
+
+					<h3 class="titulocontactos scrollflow -pop -opacity">Contactos</h3>
+
+					<div class="rayapadre">
+					<img class="raya scrollflow -pop -opacity" src="imagenes/raya4.png" alt="">
+					</div>
+
+					<p class="textocontacto scrollflow -slide-top -opacity">Conoce cada una de nuestras redes sociales, agréganos y entérate de las promociones y ofertas que brindamos a diario o escríbenos en nuestro portal de Mensajes.</p>
+
+					<div class="redesparallaxpadre">
+
+						<div class="redesparallax">
+						<a href="https://www.facebook.com/desarrolladoresdevenezuela" target="new"><img class="iconredes" src="imagenes/facebook.png" alt=""></a>
+						</div>
+
+						<div class="redesparallax">
+						<a href="https://www.instagram.com/desarrolladoresinternacional" target="new"><img class="iconredes" src="imagenes/instagram.png" alt=""></a>
+						</div>
+
+						<div class="redesparallax">
+						<a href="https://twitter.com/desarrollandome" target="new"><img class="iconredes" src="imagenes/Twitter.png" alt=""></a>
+						</div>
+
+						<div class="redesparallax">
+						<a href="#mensaje"><img class="iconredes" src="imagenes/correo.png" alt=""></a>
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+			
+			
+			
+			
+			
+			  <!------------------------------------------ LINEA ARRIBA -------------------------------------------->
+
+				<div class="linea"></div> <!--LINEA ARRIBA DE PAGINA -->
+
+
+
+
+			<!------------------------------------ FORMULARIO ------------------------------------>
+
+
+			<div class="bloque parallax image-3">
+
+				<div class="container">
+
+					<section id="mensaje">
+
+						<form method="post" class="contacto">
+
+		       			<fieldset>
+
+		       				 	<h3 class="tituloformulario">Consulta tu Plan.</h3>
+                                <p class="campoObligatorio">* Campos Obligatorios.</p>
+
+					            <div><input type="text" class="nombre" name="nombre" placeholder="* Nombre y Apellido"/></div>
+					            <div><input type="text" class="email" name="email" placeholder="* Correo"/></div>
+					            <div><input type="text" class="telefono" name="email" placeholder="* Telefono"/></div>
+					            <div><textarea cols="30" rows="5" class="mensaje" name="mensaje" placeholder="* Escribe aqui tu mensaje"></textarea></div>
+
+					            <div class="ultimo">
+					                <img src="ajax.gif" class="ajaxgif hide" />
+					                <div class="msg"></div>
+					                <button class="boton_envio">Enviar Mensaje</button>
+					            </div>
+
+		        			</fieldset>
+
+	     				</form>
+
+					</section>	
+
+				</div>
+
+			</div>
+
+		</section>
+            
+            
+
+			<!------------------------------------------ PIE ------------------------------------>
+
+		<footer class="footer">
+
+			<div class="derechos">
+                <span class="derechosTitulo"> Todos los Derechos Reservados </span>  | <span class="empresa"> Desarrolladores &copy; 2018 </span> <br><br>
+				<img class="imagenpiedepagina" src="imagenes/Logo Original Griscom ve PNG.png" alt="">
+			</div>
+
+		</footer>
+			
+			<!-- PIE DE PAGINA FINALIZA -->
+
+	</body>
+	
+
+
+	<!------------------------------------------ SCRIPT FORMULARIO -------------------------------------------->
+
+	<script src="js/funciones.js"></script> <!-- FORMULARIO -->
+
+</html>
+

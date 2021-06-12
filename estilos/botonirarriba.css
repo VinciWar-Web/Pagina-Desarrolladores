@@ -1,0 +1,29 @@
+/*INICIA ESTILO DEL TEXTO*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*FIN ESTILO DEL TEXTO*/
+
+/*INICIA ESTILO DEL BOTON*/
+
+.ir-arriba {
+	display:none;/*para poder modificar sus margenes internos (padding)*/
+	padding: 20px; /*margen interno*/
+	background: #232f4d; /*color de la caja*/
+	font-size: 20px; /*tamaño de la fuente (flecha)*/
+	color: #fff; /*color de la fuente (flecha)*/
+	opacity: 0.8;
+	border-radius: 50%;
+	cursor: pointer; /*simula como si fuera un boton o enlace*/
+	position: fixed; /*fijar el boton o boton fijo*/
+	bottom: 20px; /*Desplasa el boton abajo a 20px de la pagina*/
+	right: 20px; /*Desplasa el boton a la derecha a 20px de la pagina*/
+	z-index: 100;
+
+
+}
+
+/*FIN ESTILO DEL BOTON*/
